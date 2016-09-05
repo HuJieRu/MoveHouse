@@ -1,0 +1,16 @@
+[{
+	"url": "https://img.alicdn.com/imgextra/i1/791377775/TB2tBR6XhvxQeBjy0FiXXXioXXa_!!791377775.jpg",//图片url
+	"id": 1,//url的id
+	"isOk": false //true表示正常，false表示不正常(需要搬家)
+},
+  {
+        "url": "https://cbu01.alicdn.com/img/ibank/2016/315/385/3386583513_847629939.220x220.jpg",
+        "id": 2,
+        "isOk": true
+    },
+    {
+        "url": "http://img.firefoxchina.cn/2016/09/4/201609050829410.jpg",
+        "id": 3,
+        "isOk": false
+    }
+]

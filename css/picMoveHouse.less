@@ -1,0 +1,85 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,img,button,span,div{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+	font-family: "Microsoft YaHei"
+}
+img{
+	border: none;
+}
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	color: #656565;
+}
+
+@buttonImg:url(../img/btn.png);
+@hintIcon:url(../img/result.png);
+
+#picMoveHouse{
+	border:1px solid #ccc;
+	width: 815px;
+	margin: 0 auto;
+	padding: 10px;
+	span{
+	display: inline-block;
+	background-image:@hintIcon;
+	width:20px; 
+	height: 25px;
+	}
+	button{
+		background-image: @buttonImg;
+		background-position: -0px -40px;
+		width:120px; 
+		height: 30px;
+		border:none;
+		
+	}
+	
+	p,div{
+		display: inline-block;
+	}
+	>div:nth-of-type(1){
+		position: relative;
+
+		span{
+		background-position: 0 -25px;
+		position: absolute;
+		top: 6px;
+		}
+		p{
+			margin-left: 20px;
+		}
+
+	}
+	>div:nth-of-type(2){
+		
+		margin-left: 200px;
+		b{
+			color: #FF6600;
+			margin-right: 5px;
+		}
+		>b:last-child{
+			color: red;
+		}
+	}
+	>p{
+		color: #ccc;
+		margin: 10px 0 0;
+	}
+	li{
+		position: relative;
+		margin-top: 10px;
+		height: 30px;
+		span{
+			position: absolute;
+			top:-5px;
+		}
+	}
+}
+
